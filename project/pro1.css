@@ -1,0 +1,127 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: antiquewhite;
+    position:absolute;
+    margin-top: 0%;
+    width: 96.5%;
+    position: fixed;
+    z-index: 9999;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    ;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 35px;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: #787878;
+}
+.nav a:hover{
+    color: black;
+    cursor: pointer;
+}
+.build-yours{
+    background-color: #45e248;
+    padding: 30px;
+    border-radius: 50px;
+    color: beige;
+    font-size: 1.25em;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(immage.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+       
+}
+.texte{
+    color: white;
+}
+.texte h1{
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.texte p{
+    font-size: 1.5em;
+    font-family:'Open Sans', sans-serif;
+}
+.list-forms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    list-style: none;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.input-height{
+    height:50px;
+    border-radius: 5px;
+}
+.text-form{
+    font-size: 1.5em;
+}
+.commentaire{
+    font-size: 0.9em;
+}
+.submit {
+background-color: #45e248;
+color: white;
+font-size: 1.4em;
+}
+img{
+    width: 300px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 350px;
+    height: 350px;
+
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+    
+}
+.card1{
+    position: relative;
+    left: 10PX;
+}
